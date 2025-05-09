@@ -23,8 +23,8 @@ if system("clear") != 0:
 En Python, asignar una variable es muy sencillo. Solo necesitas asignarle un valor, y Python se encargará de determinar su tipo:
 
 ```python
-my_name = "midudev"
-print(my_name)  # Salida: midudev
+my_name = "John Doe"
+print(my_name)  # Salida: John Doe
 
 age = 32
 print(age)  # Salida: 32
@@ -44,7 +44,7 @@ print(age)  # Salida: 39
 Python es un lenguaje de **tipado dinámico**, lo que significa que no es necesario declarar el tipo de una variable al momento de crearla. El tipo se determina en tiempo de ejecución:
 
 ```python
-name = "midudev"
+name = "John Doe"
 print(type(name))  # Salida: <class 'str'>
 
 name = 32
@@ -70,7 +70,7 @@ Desde la versión 3.6 de Python, puedes usar **f-strings** (cadenas literales fo
 
 ```python
 print(f"Hola {my_name}, tengo {age + 5} años")
-# Salida: Hola midudev, tengo 44 años
+# Salida: Hola John Doe, tengo 49 años
 ```
 
 ---
@@ -135,7 +135,7 @@ Aunque no son obligatorias, las **anotaciones de tipo** proporcionan claridad al
 
 ```python
 is_user_logged_in: bool = True  # Indica que es un valor booleano
-name: str = "midudev"  # Indica que es una cadena de texto
+name: str = "John Doe"  # Indica que es una cadena de texto
 ```
 
 ---

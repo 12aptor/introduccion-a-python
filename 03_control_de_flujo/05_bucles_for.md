@@ -23,7 +23,7 @@ Cada ciclo, la variable `fruta` toma el valor de un elemento de la lista.
 Las cadenas de texto también son iterables: cada carácter se procesa por separado.
 
 ```python
-cadena = "midudev"
+cadena = "Hola, mundo!"
 for caracter in cadena:
     print(caracter)
 ```
