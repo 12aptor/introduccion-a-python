@@ -4,16 +4,6 @@ Los **métodos de lista** permiten **modificar**, **ordenar** y **consultar** li
 
 ---
 
-## 🧼 Limpiar la consola (Opcional)
-
-```python
-from os import system
-if system("clear") != 0:
-    system("cls")
-```
-
----
-
 ## 📥 Añadir Elementos
 
 - **`append(x)`**: Añade el elemento `x` al final de la lista.
