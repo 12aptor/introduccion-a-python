@@ -6,18 +6,6 @@ Las **listas** son colecciones **ordenadas** y **mutables** que permiten almacen
 
 ---
 
-## 🧼 Limpiar la consola (Opcional)
-
-Para mantener la salida de tu programa limpia, puedes usar:
-
-```python
-from os import system
-if system("clear") != 0:
-    system("cls")
-```
-
----
-
 ## 🛠️ Crear Listas
 
 Para definir una lista, utiliza corchetes `[]`:
