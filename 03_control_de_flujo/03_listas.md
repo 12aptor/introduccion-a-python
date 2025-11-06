@@ -46,7 +46,7 @@ print(lista_de_listas[1][0])  # "calcetín"
 
 ## 🍰 Slicing (Rebanado)
 
-Extrae sublistas usando `[inicio:fin:paso]`:
+Extrae sublistas usando `[inicio:fin-1:paso]`:
 
 ```python
 lista = [1, 2, 3, 4, 5]
