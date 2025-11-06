@@ -6,18 +6,6 @@ Los bucles `while` permiten ejecutar un bloque de código **repetidamente** mien
 
 ---
 
-## 🧼 Limpiar la consola (opcional)
-
-```python
-from os import system
-
-# Limpiar dependiendo del sistema operativo
-if system("clear") != 0:
-    system("cls")
-```
-
----
-
 ## 🔢 Contador simple con `while`
 
 ```python
