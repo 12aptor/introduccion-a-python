@@ -115,7 +115,7 @@ Convención de atributos “privados” con guion bajo:
 ```python
 class CuentaBancaria:
     def __init__(self, saldo):
-        self._saldo = saldo  # Atributo protegido
+        self.__saldo = saldo  # Atributo protegido
 
     def mostrar_saldo(self):
         print(f"Saldo: {self._saldo}")
